@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Admin_profile"
+            android:icon="@drawable/ic_status"
+            android:title="Admin Profile" />
+
+        <item
+            android:id="@+id/nav_Pilgrim_profile"
+            android:icon="@drawable/ic_status"
+            android:title="Pilgrim Profile" />
+
+        <item
+            android:id="@+id/nav_HajjGuideProfile"
+            android:icon="@drawable/ic_status"
+            android:title="HajjGuideProfile" />
+        <item
+            android:id="@+id/nav_Schedule"
+            android:icon="@drawable/ic_wallevents"
+            android:title="Schdule of Activities" />
+
+        <item
+            android:id="@+id/nav_hajjguid_list"
+            android:icon="@drawable/ic_wallevents"
+            android:title="Hajj Guide List" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HajjInfo"
+            android:icon="@drawable/ic_abouthajj"
+            android:title="Hajj Info" />
+        <item
+            android:id="@+id/nav_Extras"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Extras" />
+
+        <item
+            android:id="@+id/nav_AboutUS"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_FAQ"
+            android:icon="@drawable/ic_faq"
+            android:title="FAQ" />
+
+        <item
+            android:id="@+id/nav_LogOut"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

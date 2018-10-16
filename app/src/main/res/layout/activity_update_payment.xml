@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.PilgrimUpdate.UpdatePaymentActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_updatepayment" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pending_payments_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_updatepayment"
+        android:layout_above="@+id/linearLayout">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/floatingActionButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--app:fabSize="auto"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginBottom="100dp"-->
+        <!--app:srcCompat="@drawable/ic_attach_money_black_24dp" />-->
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingRight="16dp"
+            android:id="@+id/tvPendingAmountTotal"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorStroke"
+            android:text="Total Amount"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="Notice"
+            android:id="@+id/tvPilgrimTotalPaid"
+            android:textAlignment="viewEnd"
+            android:paddingRight="16dp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

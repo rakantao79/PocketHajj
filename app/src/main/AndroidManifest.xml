@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zamboanga.antao.pockethajj">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".OfflineCapabilities.OfflinePocketHajj"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".StartActivity" />
+        <activity
+            android:name=".ForgotPassActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminGUIActivity"
+            android:label="@string/title_activity_admin_gui"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HajjGuideGUIActivity"
+            android:label="@string/title_activity_hajj_guide_gui"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProfileSettings.AdminSettingsActivity"
+            android:parentActivityName=".NavigationActivity" />
+        <activity android:name=".ProfileSettings.HajjGuideSettingsActivity" />
+        <activity android:name=".ProfileSettings.PilgrimSettingsActivity" />
+        <activity
+            android:name=".Extras.QiblaActivity"
+            android:parentActivityName=".NavigationActivity" />
+        <activity
+            android:name=".Extras.HajjVRActivity"
+            android:parentActivityName=".NavigationActivity" />
+        <activity
+            android:name=".ProfileView.ProfileHajjGuideActivity"
+            android:parentActivityName=".AdminGUIActivity" />
+        <activity android:name=".ProfileView.ProfilePilgrimActivity" />
+        <activity
+            android:name=".AllUsersActivity"
+            android:parentActivityName=".AdminGUIActivity" />
+        <activity
+            android:name=".RegisterHajjGuideActivity"
+            android:parentActivityName=".AdminGUIActivity" />
+        <activity
+            android:name=".PilgrimUpdate.PilgrimUpdateProfileActivity"
+            android:parentActivityName=".NavigationActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".PilgrimUpdate.PilgrimProfileSettings"
+            android:parentActivityName=".NavigationActivity" />
+        <activity android:name=".AllHajjGuideActivity" />
+        <activity android:name=".ProfileView.SelectHajjGuideActivity" />
+        <activity android:name=".Fragments.Admin.AddScheduleActivity" />
+        <activity android:name=".HajjGuideUpdate.HajjGuideProfileSettings" />
+        <activity android:name=".HajjGuideUpdate.HajjGuideUpdateProfile" />
+        <activity android:name=".PilgrimUpdate.UpdateRequirementsPilgrim" />
+        <activity
+            android:name=".Fragments.Admin.AnnualReports"
+            android:label="@string/title_activity_annual_reports"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AnnualReport.AnnualReportActivity"
+            android:label="@string/title_activity_annual_report"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PilgrimUpdate.UpdatePaymentActivity" />
+        <activity android:name=".PilgrimUpdate.UploadPaymentActivity" />
+        <activity
+            android:name=".StepByStepHajj.StepByStepHajjActivity"
+            android:label="@string/title_activity_step_by_step_hajj"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Fragments.Admin.VerifyProfileActivity" />
+        <activity android:name=".PilgrimUpdate.ViewPendingPaymentActivity" />
+        <activity
+            android:name=".Payments.PaymentsActivity"
+            android:label="@string/title_activity_payments"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PilgrimUpdate.PendingPaymentsActivity" />
+        <activity android:name=".Payments.ViewListOfPendingPaymentsActivity" />
+        <activity android:name=".Payments.ViewListOfApprovedPaymentsActivity" />
+        <activity android:name=".Payments.ViewApprovedPaymentsActivity" />
+        <activity android:name=".Payments.ViewDetailPaymentActivity" />
+        <activity android:name=".Payments.DetailViewPilgrimsApprovedActivity" />
+        <activity android:name=".Payments.ViewDetailPendingPaymentActivity" />
+        <activity
+            android:name=".AnnualReport.AnnualReportSpinnerTabbedActivity"
+            android:label="@string/title_activity_annual_report_spinner_tabbed"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ChatModule.AdminChatActivity"></activity>
+    </application>
+
+</manifest>

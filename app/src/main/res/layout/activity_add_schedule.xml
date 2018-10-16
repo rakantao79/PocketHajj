@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zamboanga.antao.pockethajj.Fragments.Admin.AddScheduleActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_addSchedule"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Add Schedule of Activities"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:hint="Title"
+                android:id="@+id/etSchedTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:hint="Content"
+                android:id="@+id/etSchedContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:hint="Date"
+                android:id="@+id/etSchedDate"
+                android:inputType="date"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etSchedTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time"
+                android:focusable="false"
+                android:inputType="datetime" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSchedSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:textColor="@color/colorStroke"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnSchedCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_accentback"
+            android:text="Cancel" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.PilgrimUpdate.PilgrimUpdateProfileActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_pilgrim_update_profile"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/img_profile_img" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:hint="Display Name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColorHint="@color/colorStroke"
+            android:background="@drawable/background_editext_white"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColorHint="@color/colorStroke"
+            android:background="@drawable/background_editext_white"/>
+
+        <Button
+            android:id="@+id/btnUpdatePIlgrimDisplayName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:text="Update Display Name"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnUpdatePilgrimImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:text="CHANGE IMAGE" />
+
+    </LinearLayout>
+
+</RelativeLayout>

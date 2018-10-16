@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zamboanga.antao.pockethajj.Payments.ViewListOfApprovedPaymentsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/viewListofApprovedPaymeentsRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textView2"
+        android:background="@color/cardview_dark_background">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tvApprovedAmountTotal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:paddingRight="16dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Total Amount"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorStroke"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvAmountBalance"
+            android:paddingRight="16dp"
+            android:text="Notice"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

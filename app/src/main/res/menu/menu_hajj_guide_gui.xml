@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="zamboanga.antao.pockethajj.HajjGuideGUIActivity">
+    <item
+        android:id="@+id/action_payments"
+        android:orderInCategory="100"
+        android:title="Payments"
+        app:showAsAction="never" />
+</menu>

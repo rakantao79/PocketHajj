@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.Fragments.Admin.StatisticsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <TextView
+        android:id="@+id/tvTotalNumberOfUsers"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Number of Users: " />
+
+    <TextView
+        android:id="@+id/tvTotalNumberOfPilgrims"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Number of Pilgrims :" />
+
+    <TextView
+        android:id="@+id/tvTotalNumberOfHajjGuides"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Number of Hajj Guides :" />
+
+
+</LinearLayout>

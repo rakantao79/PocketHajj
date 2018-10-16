@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="zamboanga.antao.pockethajj.ProfileView.SelectHajjGuideActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_select_hajj_guide"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/relativeLayout3">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgSelectHajjGuide"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_profile_img" />
+
+        <TextView
+            android:id="@+id/tvSelectHajjLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hajj Last Name"
+            android:textColor="@color/colorStroke"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tvSelectHajjFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="First Name"
+            android:textSize="20dp"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnSelectHajjGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blacktransparent"
+            android:text="Send Join Request"
+            android:textColor="@color/colorStroke"
+            android:layout_marginTop="80dp" />
+        <Button
+            android:layout_marginTop="8dp"
+            android:id="@+id/btnDeclineRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_goldtransparent"
+            android:text="Decline Join Request"
+            android:textColor="@color/colorStroke" />
+
+    </LinearLayout>
+
+</RelativeLayout>

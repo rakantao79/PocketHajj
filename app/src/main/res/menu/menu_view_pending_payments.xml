@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_add_payment"
+        android:title="Add Payment"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_view_pending_payments"
+        android:icon="@drawable/ic_credit_card_black_24dp"
+        android:title="View Pending Payments"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.ProfileView.ProfileHajjGuideActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_hajjguiprofile"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgHajjGuideProfileImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_profile_img"
+        android:layout_below="@+id/toolbar_hajjguiprofile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvHajjLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Hajj Last Name"
+        android:textColor="@color/colorStroke"
+        android:textSize="24dp"
+        android:layout_below="@+id/imgHajjGuideProfileImage"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvHajjFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHajjLastName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="First Name"
+        android:textSize="20dp"
+        android:textColor="@color/colorStroke"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvHajjFirstName"
+        android:layout_centerHorizontal="true" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btnJoinHajjGuide"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/ratingBar"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:background="@drawable/btn_goldtransparent"-->
+        <!--android:text="Join"-->
+        <!--android:textColor="@color/colorStroke" />-->
+
+</RelativeLayout>

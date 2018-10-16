@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.PilgrimUpdate.ViewPendingPaymentActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgViewPendingPayment"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvViewPendingAmount"
+            android:textSize="18dp"
+            android:text="Amount"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorStroke"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic"
+            android:id="@+id/tvViewDateUpload"
+            android:textSize="14dp"
+            android:text="Date Uploaded"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorStroke"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnApprovePendingAmount"
+            android:text="Approved"
+            android:textColor="@color/colorStroke"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnDeclinePendingAmount"
+            android:text="Decline"
+            android:textColor="@color/colorStroke"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

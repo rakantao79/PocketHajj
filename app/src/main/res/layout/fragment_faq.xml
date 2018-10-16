@@ -1,0 +1,198 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:scrollbars="horizontal"
+    tools:context="zamboanga.antao.pockethajj.Fragments.FAQFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who can apply?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muslims who are physically, mentally, and financially able."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When does registration starts?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every after the Hajj until the month of Ramadan."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When does registration starts?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every after the Hajj until the month of Ramadan."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are the requirements in applying for hajj?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please check the requirements section."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How do I obtain hajj visa?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Once all the required documents have been submitted, we will obtain the Hajj visas for all travelers In shaa Allah."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How much do I need for me to apply for Hajj?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As of now it is more or less P200,000.00, but it increases annually."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where can I find a sheikh?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This application provides you the list of certified sheikhs that you could register with."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Can I change my sheikh?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes, but it is only allowed once."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Can I bring my infant/toddler?"
+            android:textAlignment="center"
+            android:paddingTop="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes, but there are several factors which must be considered when deciding to take your young children with you. Amongst them are the following:"
+            android:textAlignment="center" />
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="•	They are from the most vulnerable regarding illnesses. \n •	Will there be someone to take care of them if you fall ill? \n •	Will they be performing the Hajj i.e. will they have to enter Ihraam and fulfill the rites of Hajj?"-->
+            <!--android:textAlignment="center" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Should your child fall ill, it may place an additional emotional and physical burden upon you, making it difficult to complete your rites of `Umrah/Hajj with full attention and devotion.  If it is possible, try to make arrangements to have family members look after your children for the time that you are gone."-->
+            <!--android:textAlignment="center" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="How can I become a Pilgrim?"-->
+            <!--android:textAlignment="center"-->
+            <!--android:paddingTop="12dp"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Go to Start and Create your Account to be become a Pilgrim"-->
+            <!--android:textAlignment="center" />-->
+
+        <Button
+            android:id="@+id/btnCallStartActivity"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Message to Admin"
+            android:textColor="@color/colorStroke"
+            android:background="@drawable/btn_blacktransparent"/>
+        
+    </LinearLayout>
+
+</ScrollView>

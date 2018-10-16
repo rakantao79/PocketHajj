@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "563759457560",
+    "firebase_url": "https://pockethajj-b41bc.firebaseio.com",
+    "project_id": "pockethajj-b41bc",
+    "storage_bucket": "pockethajj-b41bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563759457560:android:d92d3b1dda86431d",
+        "android_client_info": {
+          "package_name": "zamboanga.antao.pockethajj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563759457560-cbjprga0hck0g5fjpolk7tk60ckaha6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zamboanga.antao.pockethajj",
+            "certificate_hash": "4873e62c2f908a0a04400ec2326ddb4b3a278a5a"
+          }
+        },
+        {
+          "client_id": "563759457560-8mkvjavk4u6au0n7sjhss9udtgvtoiu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUfu2BptX9jjbE7ePD4sEVkWY6_z35noA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563759457560-8mkvjavk4u6au0n7sjhss9udtgvtoiu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

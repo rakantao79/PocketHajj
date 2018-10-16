@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zamboanga.antao.pockethajj.PilgrimUpdate.UploadPaymentActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_uploadpayment"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_screenshot"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_center_focus_weak_black_24dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etInputAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="Amount"
+                android:inputType="numberDecimal"
+                android:text="0.0"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:text="Submit"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnSubmitCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_accentback"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</RelativeLayout>

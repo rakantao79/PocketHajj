@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="zamboanga.antao.pockethajj.PilgrimUpdate.PilgrimProfileSettings">
+
+    <include layout="@layout/toolbar_transparent"
+        android:id="@+id/toolbar_pilgrim_profile_settings"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circularImageProfileSettingsPilgrim"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/img_profile_img" />
+
+        <TextView
+            android:id="@+id/tvPilgrimProfileSettingsDisplayName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:text="Display Name"
+            android:textAlignment="center"
+            android:textColor="@color/colorStroke"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPilgrimProfileSettingsContactNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textAlignment="center"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnProfileSettingUpdateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:text="Update Profile"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnProfileSettingUpdateImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:text="Change Image"
+            android:textColor="@color/colorStroke" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

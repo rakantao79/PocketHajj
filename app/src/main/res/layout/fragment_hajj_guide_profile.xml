@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.Fragments.HajjGuide.HajjGuideProfileFragment">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgHGPRofile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_profile_img" />
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/tvHGProfileLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hajj Guide LastName"
+            android:textColor="@color/colorStroke" />
+
+        <TextView
+            android:id="@+id/tvHGProfileFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hajj Guide First Name"
+            android:textColor="@color/colorStroke" />
+
+        <TextView
+            android:id="@+id/tvHGProfileContactNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hajj Guide Contact Number"
+            android:textColor="@color/colorStroke" />
+
+        <TextView
+            android:id="@+id/tvHGNumOfPilgrims"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Number of Pilgrims"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnHGProfileCallProfileSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:text="Profile Settings"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnHGProfileCallManageUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:text="Manage Users"
+            android:textColor="@color/colorStroke" />
+    </LinearLayout>
+</RelativeLayout>

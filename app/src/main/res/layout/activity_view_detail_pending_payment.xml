@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context="zamboanga.antao.pockethajj.Payments.ViewDetailPendingPaymentActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_view_detail_pending_payment"/>
+
+    <LinearLayout
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgPendingScreenshot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvViewPendingAmountForPilgrim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textAlignment="center"
+            android:textColor="@color/colorStroke"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvViewDateUploadForPilgrim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Date Upload"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnViewPendingForPilgrimOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:text="Ok"
+            android:textColor="@color/colorStroke" />
+
+    </LinearLayout>
+
+</LinearLayout>

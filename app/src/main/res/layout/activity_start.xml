@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zamboanga.antao.pockethajj.StartActivity"
+    android:background="@drawable/img_bg_blur">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_start"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@+id/toolbar_start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="90dp"
+            app:srcCompat="@drawable/logo_pockethajjwithname" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnHaveAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:elevation="24dp"
+            android:text="Already Have Account"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnHaveAccount"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_goldtransparent"
+            android:text="Create Account"
+            android:textColor="@color/colorStroke" />
+
+        <Button
+            android:id="@+id/btnAsGuest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnCreateAccount"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_blacktransparent"
+            android:text="Continue as Guest"
+            android:textColor="@color/colorStroke" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

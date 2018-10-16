@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/img_blur5"
+    tools:context="zamboanga.antao.pockethajj.Extras.QiblaActivity">
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:src="@drawable/logo_zqibla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24dp"
+        android:textColor="@color/colorStroke"
+        android:id="@+id/tvDegrees"
+        android:textAlignment="center"/>
+
+    <Button
+        android:text="Back to Main"
+        android:textColor="@color/colorStroke"
+        android:id="@+id/btn_Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_accentback"/>
+
+</RelativeLayout>

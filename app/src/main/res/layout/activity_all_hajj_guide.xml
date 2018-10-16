@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="zamboanga.antao.pockethajj.AllHajjGuideActivity">
+
+    <include layout="@layout/toolbar_transparent" android:id="@+id/toolbar_allHajjGuid"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/allHajjGuideRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_allHajjGuid">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

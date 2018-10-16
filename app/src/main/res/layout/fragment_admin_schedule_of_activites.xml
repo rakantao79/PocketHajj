@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zamboanga.antao.pockethajj.Fragments.Admin.AdminScheduleOfActivitesFragment">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSOA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ic_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/cardview_dark_background"
+        android:id="@+id/SOArecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

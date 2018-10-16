@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zamboanga.antao.pockethajj.Fragments.HajjInfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <VideoView
+        android:id="@+id/vvHajj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_hajj10"
+                android:padding="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_hajj1"
+                android:padding="12dp"/>
+
+            <ViewFlipper
+                android:id="@+id/viewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_hajj2"
+                android:padding="12dp"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_hajj3"
+                android:padding="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_hajj4"
+                android:padding="12dp"/>
+
+            <Button
+                android:text="Step by Step Hajj"
+                android:textColor="@color/colorStroke"
+                android:id="@+id/btn_stepbystephajj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_accentback"
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

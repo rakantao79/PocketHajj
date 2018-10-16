@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">PocketHajj</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to Pocket Hajj</string>
+    <string name="slide_1_desc">Provides comprehensive and easy-to-understand Guide about the Holy Pilgrimage to Makkah (Mecca)</string>
+
+    <string name="slide_2_title">Easy Monitor</string>
+    <string name="slide_2_desc">Sheikh could easily track and communicate with his Jamaas</string>
+
+    <string name="slide_3_title">Benefits</string>
+    <string name="slide_3_desc">Register with your email or with existing facebook ang gmail account.</string>
+
+    <string name="slide_4_title">Get Started</string>
+    <string name="slide_4_desc">After Registering or Logging in, you may have start navigating the app by clicking the three line button.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="agreements">By signing up, I agree to Pocket Hajj\'s</string>
+    <string name="have_account">Have Account? Login HERE.</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="BPE">The Bureau of Pilgrimage and Endowment (BPE) is primarily responsible for the administration of the annual Muslim  pilgrimage to Mecca, Kingdom of Saudi Arabia and the formulation and implementation of programs, projects and activities for the efficient and effective administration and supervision of the conduct of pilgrimage activities: Provided, that the supervision accorded the Bureau under this section shall not include control.</string>
+
+
+    <string name="about_hajj">What is the purpose of the Hajj?</string>
+    <string name="about_hajj1">The Hajj is one of the five pillars of Islam, and all able-bodied Muslims are required to perform it once in their lifetime. The Hajj is seen as a chance to wipe clean past sins and start fresh. Many seek to deepen their faith on the Hajj, with women taking on the Islamic hair covering known as "hijab" upon returning from the pilgrimage. </string>
+    <string name="about_hajj2">Despite the physical challenges of the hajj, many people rely on canes or crutches and insist on walking the routes. Those who cannot afford the Hajj are sometimes financed by charities or community leaders. Others save their entire lives to make the journey. A few even walk thousands of miles by foot to Saudi Arabia, taking months to arrive. </string>
+    <string name="about_hajj3">What is the history of the Hajj?</string>
+    <string name="about_hajj4">While following a route the Prophet Muhammad once walked, the rites of Hajj are believed to ultimately trace the footsteps of the prophets Ibrahim and Ismail, or Abraham and Ishmael as they are named in the Bible. </string>
+    <string name="about_hajj5">Muslims believe Ibrahim\'s faith was tested when God commanded him to sacrifice his only son Ismail. Ibrahim was prepared to submit to the command, but then God stayed his hand, sparing his son. In the Christian and Jewish version of the story, Abraham is ordered to kill his other son, Isaac. </string>
+    <string name="about_hajj6">Pilgrims also trace the path of Ibrahim\'s wife, Hagar, who Muslims believe ran between two hills seven times searching for water for her dying son. Tradition holds that God then brought forth a spring that runs to this day. That spring, known as the sacred well of Zamzam, is believed to possess healing powers and pilgrims often return from the Hajj with bottles of its water as gifts. </string>
+    <string name="about_hajj7">Why is the Kaaba so important to Muslims?</string>
+    <string name="about_hajj8">Islamic tradition holds that the Kaaba was built by Ibrahim and Ismail as a house of monotheistic worship thousands of years ago. Over the years, the Kaaba was reconstructed and attracted different kinds of pilgrims, including early Christians who once lived in the Arabian Peninsula. In pre-Islamic times, the Kaaba was used to house pagan idols worshipped by local tribes. </string>
+    <string name="about_hajj9">Muslims do not worship the Kaaba, but it is Islam\'s most sacred site because it represents the metaphorical house of God and the oneness of God in Islam. Observant Muslims around the world face toward the Kaaba during the five daily prayers. </string>
+    <string name="about_hajj10">Hajj Islamic pilgrimage is a largest a new pilgrimage in the world, is a religious teaching in Islam..at least the pilgrim is able at least once in a life’s, is a birth a collective under taking in a deep leap us no experience. One of the philosophies of the hajj is a Spirituality and Unity. All Muslim performance same rights and encourage to share the spirit of the Equality, all programs is expected to remain and states Purity and Simplicity during the hajj. As much as possible these includes wearing simple clothes wish you man is to pieces of white unsown cloth, women are not stricter to specific color but are also encourage when Non-elaborate clothing and involve the series of reaching that takes place and around Mecca over a pair the 5 to 6 days it takes place in Mina, Arafat, Muzdalifa and Mecca. We perform tawaf and umrah, circling the ka’bah 7 times in a qiblaadirection...Muslim believe that the ratios of the hajj have the origin and the time of Prophet Abraham, Prophet Mohammad let the hajj themselves in 632 the era of his death, Saudi Arabia has around 3 million pilgrims every year from across the world for the hajj.</string>
+
+    <string name="develop_by">Developed by \n Almansour Mohammad\n Abdullah Detuyatu\n Julminir Kalli\n Abdul Rahman Antao</string>
+
+
+    <string name="brief_guide">Be sure you are ready to perform the Hajj. \n The Hajj is not to be undertaken lightly or as an afterthought. In ancient times, it was not uncommon for pilgrims to die during their journey to Mecca. Though modern conveniences now allow millions of Muslims to quickly and safely travel to and from the holy city, the Hajj should still be approached with the seriousness and dedication of these early pilgrims. Study the rituals of the Hajj, begin to clear your mind of worldly distractions, and, most importantly, be repentant for past sins, which will be forgiven during your pilgrimage.</string>
+
+    <string name="step_one_a">An Arabic, Ihram means “not to desecrate” or “to declare a lawful thing as Haraam (unlawful) upon oneself”. According to Shari’ah, Ihram is to enter into a state in which it is prohibited for a person touse certain Halal (lawful) and Mustahabb things, like wearing stitched garments, use of perfume, and hair cut, after he forms Niyyah for Hajj or Umrah and recites Talbiyah:</string>
+    <string name="step_one_b">“Labbaykallahumma labbayk, Labbayka la Shariyka laka labbayk, Innahal Hamda wan Ni’mata laka wal Mulk la Shariykalak”</string>
+    <string name="step_one_c">*Before he forms Niyyah and assumes Ihram, a person should put on the sheets of cloth. He should keep both the shoulders covered with the sheets. Then after covering his head he should perform Nafl Salah, if the time is not Makruh.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_stepby_step_hajj_guide">StepbyStepHajjGuideActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin_gui">AdminGUIActivity</string>
+    <string name="title_activity_hajj_guide_gui">HajjGuideGUIActivity</string>
+    <string name="title_activity_annual_reports">AnnualReports</string>
+    <string name="title_activity_annual_report">AnnualReportActivity</string>
+    <string name="title_activity_step_by_step_hajj">StepByStepHajjActivity</string>
+    <string name="title_activity_payments">PaymentsActivity</string>
+    <string name="title_activity_annual_report_spinner_tabbed">AnnualReportSpinnerTabbedActivity
+    </string>
+
+
+</resources>
+
